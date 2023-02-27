@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        // Get two integers from user input
+        int n1 = input.nextInt();
+        int n2 = input.nextInt();
+        
+        // Calculate the sum of the two integers
+        int sum = n1 + n2;
+        
+        // Convert the sum to double and store it in a variable
+        double result = (double) sum;
+        
+        // Display the result
+        System.out.println(result);
+    }
+}
