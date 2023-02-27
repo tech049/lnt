@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        double length = input.nextDouble();
+
+        double breadth = input.nextDouble();
+
+        double area = length * breadth ;
+        double perimeter = 2 * (length + breadth) ;
+        System.out.println("Area: " + area);
+        System.out.println("Perimeter: " + perimeter);
+    }
+}
